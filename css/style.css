@@ -49,6 +49,7 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -57,7 +58,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: black; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -67,6 +68,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
+
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -1438,7 +1440,7 @@ pre {
   background-color: #abdde5; }
   .table-hover .table-info:hover > td,
   .table-hover .table-info:hover > th {
-    background-color: #abdde5; }
+    background-style="border: 5px solid green; border-radius: 10px; padding: 20px; background-color: white; color: black;">: #abdde5; }
 
 .table-warning,
 .table-warning > th,
@@ -1597,7 +1599,7 @@ pre {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #black;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -4348,15 +4350,14 @@ input[type="button"].btn-block {
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease; }
   @media (prefers-reduced-motion: reduce) {
-    .progress-bar {
+    .progress-bar {background: rgb(48,149,149);
+background: linear-gradient(180deg, rgba(48,149,149,1) 3%, rgba(14,50,73,1) 44%, rgba(105,83,26,1) 75%, rgba(8,16,22,1) 100%);
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
 
 .progress-bar-striped {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-color: black;
   background-size: 1rem 1rem; }
 
 .progress-bar-animated {
@@ -8144,13 +8145,13 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #8d448b; }
+  color: #green; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #8d448b; }
+    color: #green; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -8160,7 +8161,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .bg-primary {
-  background: #8d448b !important; }
+  background: #green !important; }
 
 .ftco-section {
   padding: 7em 0; }
@@ -8190,11 +8191,11 @@ h1, h2, h3, h4, h5,
   .login-wrap h3 {
     font-weight: 700;
     font-size: 20px;
-    color: #8d448b; }
+    color: #green; }
   .login-wrap .icon {
     width: 80px;
     height: 80px;
-    background: #8d448b;
+    background: #green;
     border-radius: 50%;
     font-size: 30px;
     margin: 0 auto;
@@ -8292,9 +8293,9 @@ h1, h2, h3, h4, h5,
 
 /* Style the checkmark/indicator */
 .checkbox-primary {
-  color: #8d448b; }
+  color: #green; }
   .checkbox-primary input:checked ~ .checkmark:after {
-    color: #8d448b; }
+    color: #green; }
 
 .btn {
   cursor: pointer;
@@ -8305,20 +8306,20 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #8d448b !important;
-    border: 1px solid #8d448b !important;
+    background: #green !important;
+    border: 1px solid #green !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #8d448b;
+      border: 1px solid #green;
       background: transparent;
-      color: #8d448b; }
+      color: #green; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #8d448b;
+      border: 1px solid #green;
       background: transparent;
-      color: #8d448b; }
+      color: #green; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #8d448b;
+        background: #green;
         color: #fff; }
 
 .form-group {
